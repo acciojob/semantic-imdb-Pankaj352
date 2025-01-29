@@ -1,63 +1,60 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Page</title>
-    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to My Interactive Page</h1>
-        <p>Explore the features and enjoy the dynamic experience!</p>
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+</script>
+	<header>
+        <h1>The Shawshank Redemption</h1>
     </header>
 
-    <!-- Navigation Bar -->
     <nav>
-        <ul>
-            <!-- Link to the Actors section -->
-            <li><a id="nav-actor" href="#actor">Actors</a></li>
-            <!-- Link to the Quotes section -->
-            <li><a id="nav-quote" href="#quote">Quotes</a></li>
-        </ul>
+        <a href="#actor" id="nav-actor">Actors</a>
+        <a href="#quote" id="nav-quote">Quotes</a>
     </nav>
 
-    <!-- Summary Section -->
-    <summary>
-        <h2>About This Page</h2>
-        <p>This page is an interactive experience designed to showcase various features, including dynamic content and styling.</p>
-    </summary>
-
-    <!-- Main Content -->
     <main>
-        <!-- Actors Section -->
+        <section>
+            <h2>Summary</h2>
+            <summary>
+                The Shawshank Redemption tells the story of Andy Dufresne, a man wrongly convicted of murder, who forges a lifelong friendship with Ellis "Red" Redding while finding solace and eventual redemption through acts of common decency within the walls of Shawshank Prison.
+            </summary>
+        </section>
+
         <section id="actor">
             <h2>Actors</h2>
-            <p>Here are some famous actors featured in this project:</p>
             <ul>
-                <li>Actor 1</li>
-                <li>Actor 2</li>
-                <li>Actor 3</li>
+                <li>Tim Robbins as Andy Dufresne</li>
+                <li>Morgan Freeman as Ellis "Red" Redding</li>
+                <li>Bob Gunton as Warden Norton</li>
+                <li>William Sadler as Heywood</li>
             </ul>
         </section>
 
-        <!-- Quotes Section -->
         <section id="quote">
-            <h2>Favorite Quotes</h2>
-            <p>"The journey of a thousand miles begins with a single step." – Lao Tzu</p>
+            <h2>Quotes</h2>
+            <blockquote>
+                <p>"Hope is a good thing, maybe the best of things, and no good thing ever dies."</p>
+            </blockquote>
         </section>
+
+        <aside>
+            <h3>IMDb Rating & Release Date</h3>
+            <p>Rating: 9.3/10</p>
+            <p>Release Date: September 22, 1994</p>
+        </aside>
     </main>
 
-    <!-- Footer -->
     <footer>
-        <p>Produced by: John Doe</p>
+        <p>Produced by: Niki Marvin</p>
     </footer>
 
-    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
